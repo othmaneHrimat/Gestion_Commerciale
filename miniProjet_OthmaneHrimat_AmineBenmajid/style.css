@@ -1,0 +1,87 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Josfin sans', sans-serif;
+    height: 100%;
+    background-image: linear-gradient(rgb(88, 90, 233), rgb(98, 127, 158));
+}
+.about{
+    width: 100%;
+    padding: 78px 0px;
+   
+}
+
+.about img{
+    height: auto;
+    width: 420px;
+}
+.about text{
+    width: 550px;
+}
+
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.main img{
+    width: 500px;
+}
+
+.about-text h2{
+    color: black;
+    font-size: 60px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.about-text h5{
+    color: black;
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+   
+}
+.about-text{
+    padding-left: 2cm;
+}
+
+.about-text p{
+    color: black;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    text-align: left;
+    text-indent: 30px;
+}
+.about-text a{
+    text-decoration: none;
+    color: #454555;
+}
+.about-text a:hover{
+    color: red;
+   
+}
+label{
+    color: black;
+}
+h3{
+    color: black;
+}
+.muted-text{
+    color: black;
+}
+.para p{
+    font-family: italic;
+    font-size: 20px;
+}
+.card-container.card {
+    max-width: 500px;
+    padding: 40px 40px;
+}
